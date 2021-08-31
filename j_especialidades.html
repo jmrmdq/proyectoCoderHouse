@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Biryani:wght@200;300;400;600&family=Dancing+Script:wght@400;500&family=Great+Vibes&family=Montserrat&family=Sacramento&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Clínica JMR</title>
+</head>
+
+<body>
+    <header>
+        <div class="cajaNav">
+            <nav class="barraNavegador">
+                <ul class="letrasNav">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="j_especialidades.html">Especialidades</a></li>
+                    <li><a href="k_horarios.html">Horarios</a></li>
+                    <li><a href="l_institucional.html">Institucional</a></li>
+                    <li><a href="m_contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="topGenerico">
+        <div class="cajaGenerica bordes">
+            <h1>Medicos y Especialistas</h1>
+        </div>
+        <section class="bordes cajaGenerica cuadroTxt">
+            <h2>Area o Sector</h2>
+            <form action="">
+                <label for="especialistas">Elija la opción deseada</label>
+                <select name="especialistas" id="especialistas">
+                    <option value="Alergia">Alergia e Inmunología</option>
+                    <option value="Cardiologia">Cardiología</option>
+                    <option value="Clinica">Clínica Médica</option>
+                    <option value="Diagnostico">Diagnóstico por Imagenes</option>
+                    <option value="Ecodoppler">Eco Doppler</option>
+                    <option value="Fisiatria">Fisiatría</option>
+                    <option value="Fonoaudiologia">Fonoaudiología</option>
+                    <option value="Gastroenterologia">Gastroenterología</option>
+                    <option value="Ginecologia">Ginecoligía</option>
+                    <option value="Laboratorio">Laboratorio</option>
+                </select>
+                <button inputmode="text">Consultar</button>
+            </form>
+        </section>
+        <section class="bordes cajaGenerica cuadroTxt">
+            <h2>Apellido y nombre del profesional</h2>
+            <form action="">
+                <label for="profesional">Elija la opción deseada</label>
+                <select name="profesional" id="profesional">
+                    <option value="Alvarez">Alvarez Alberto</option>
+                    <option value="Basualdo">Basualdo Jose</option>
+                    <option value="Cisneros">Cisneros Maria</option>
+                    <option value="Coronel">Coronel Veronica</option>
+                    <option value="Diaz">Diaz Juan</option>
+                    <option value="Fernandez">Fernandez Noelia</option>
+                    <option value="Flores">Flores Roberto</option>
+                    <option value="Galindo">Galindo Raquel</option>
+                    <option value="Gorodezky">Gorodezky Clara</option>
+                    <option value="Heredia">Heredia Alfredo</option>
+                </select>
+                <button inputmode="text">Consultar</button>
+            </form>
+        </section>
+        <div class="bordes cajaGenerica">
+            <h3 class="parrafo1">Seleccione la fecha de su interes</h3>
+            <div class="colorFondo">
+                <p>Aquí va un calendario</p>
+            </div>
+        </div>
+        <section class="bordes cajaGenerica">
+            <h3 class="parrafo1">Otras formas de comunicarse</h3>
+            <h4 class="parrafo1">Complete el formulario y lo llamaremos a la brevedad</h4>
+            <form class="listaFormulario" action="">
+                <ul class="listaFormulario">
+                    <label for="apellido">Apellido</label>
+                    <li class="listaFormulario">
+                        <input class="entradas" type="text" id="apellido" name="apellido">
+                    </li>
+                    <label class="etiquetas" for="nombre">Nombre</label>
+                    <li>
+                        <input class="entradas" type="text" id="nombre" name="nombre">
+                    </li>
+                    <label for="edad">Edad</label>
+                    <li>
+                        <input class="entradas" type="number" id="edad" name="edad">
+                    </li>
+                    <label for="social">Obra Social</label>
+                    <li>
+                        <input class="entradas" type="text" id="social" name="social">
+                    </li>
+                    <label for="celular">Numero celular</label>
+                    <li>
+                        <input class="entradas" type="number" placeholder="2235123456" id="celular" name="celular">
+                    </li>
+                    <label for="suconsulta">Ingrese informaciòn que crea conveniente aclarar</label>
+                    <li>
+                        <textarea name="suconsulta" id="suconsulta" cols="50" rows="10"></textarea>
+                    </li>
+                </ul>
+                <button type="submit">Enviar</button>
+                <button type="reset">Borrar datos</button>
+            </form>
+        </section>
+        <footer class="piePagina">
+            <div class="cajaPiePagina">
+                <p id="txtFooter">Derechos Reservados a JMR 2021 - Para mas info usa la red social de tu preferencia:
+                </p>
+                <img id="imagenFooter1" src="img/whatsapp.png" alt="icono whatsapp">
+                <img id="imagenFooter2" src="img/instagram.png" alt="icono instagram">
+                <img id="imagenFooter3" src="img/facebook.png" alt="icono facebook">
+                <img id="imagenFooter4" src="img/twitter.png" alt="icono twitter">
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>

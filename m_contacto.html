@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Biryani:wght@200;300;400;600&family=Dancing+Script:wght@400;500&family=Great+Vibes&family=Montserrat&family=Sacramento&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Clínica JMR</title>
+</head>
+
+<body>
+    <header>
+        <div class="cajaNav">
+            <nav class="barraNavegador">
+                <ul class="letrasNav">
+                    <li><a href="index.html" >Inicio</a></li>
+                    <li><a href="j_especialidades.html">Especialidades</a></li>
+                    <li><a href="k_horarios.html">Horarios</a></li>
+                    <li><a href="l_institucional.html">Institucional</a></li>
+                    <li><a href="m_contacto.html">Contacto</a></li>
+                </ul>   
+            </nav>
+        </div>
+    </header>
+    <main class="topGenerico">
+        <div class="cajaGenerica bordes">
+            <h1>Contacto</h1>
+        </div>
+        <section class="bordes">
+            <div class="cajaGenerica cuadroTxt textoGrande">Turnos en general 0800-999-1234 opción 1</div>
+            <div class="cajaGenerica cuadroTxt textoGrande">Analisis y laboratorio 0800-999-1234 opción 2</div>
+            <div class="cajaGenerica cuadroTxt textoGrande">Consultorios Externos 0800-999-1234 opción 3</div>
+            <div class="cajaGenerica cuadroTxt textoGrande">Administración e internación 0800-999-1234 opción 4</div>
+        </section>
+        <section class="bordes">
+            <h3 class="parrafo2">Otras formas de comunicarse</h3>
+            <h4 class="parrafo2">Complete el formulario y lo llamaremos a la brevedad</h4>
+            <form action="">
+                <ul class="listaFormulario">
+                    <label for="apellido">Apellido</label>
+                    <li class="parrafo3">
+                        <input class="entradas" type="text" id="apellido" name="apellido">
+                    </li>
+                    <label for="nombre">Nombre</label>
+                    <li class="parrafo3">
+                        <input class="entradas" type="text" id="nombre" name="nombre">
+                    </li>
+                    <label for="edad">Edad</label>
+                    <li class="parrafo3">
+                        <input class="entradas" type="number" id="edad" name="edad">
+                    </li>
+                    <label for="social">Obra Social</label>
+                    <li class="parrafo3">
+                        <input class="entradas" type="text" id="social" name="social">
+                    </li>
+                    <label for="celular">Numero celular</label>
+                    <li class="parrafo3">
+                        <input class="entradas" type="number" placeholder="2235123456" id="celular" name="celular">
+                    </li>
+                    <div class="parrafo3">Horarios de contacto:</div>
+                    <label>08:00 a 11:00hs</label>
+                    <input type="radio" name="horario" value="opción1">
+                    <label>11:00 a 14:00hs</label>
+                    <input type="radio" name="horario" value="opción2">
+                    <label>14:00 a 17:00hs</label>
+                    <input class="parrafo3" type="radio" name="horario" value="opción3"><br><br>
+                    <label for="suconsulta">Ingrese informaciòn que crea conveniente aclarar</label>
+                    <li class="parrafo2">
+                        <textarea name="suconsulta" id="suconsulta" cols="50" rows="10"></textarea>
+                    </li>
+                </ul>
+                <button class="parrafo1" type="submit">Enviar</button>
+                <button class="parrafo1" type="reset">Borrar datos</button>
+            </form>
+        </section>
+        <footer class="piePagina">
+            <div class="cajaPiePagina">
+                <p id="txtFooter">Derechos Reservados a JMR 2021 - Para mas info usa la red social de tu preferencia:
+                </p>
+                <img id="imagenFooter1" src="img/whatsapp.png" alt="icono whatsapp">
+                <img id="imagenFooter2" src="img/instagram.png" alt="icono instagram">
+                <img id="imagenFooter3" src="img/facebook.png" alt="icono facebook">
+                <img id="imagenFooter4" src="img/twitter.png" alt="icono twitter">
+            </div>
+        </footer>
+    </main>
+</body>
+</html>

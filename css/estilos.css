@@ -1,0 +1,388 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.navegadorMenu {
+    justify-content: right;
+}
+
+/* Defino la caja dentro del nav */
+.cajaNav {
+  background: #47b5f4;
+  background: linear-gradient(90deg, #47b5f4 0%, #f5722c 35%, #00b894 100%);
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  height: 60px;
+  z-index: 3000; }
+
+/* define el menu nav, no el contenido */
+.barraNavegador {
+  display: flex;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center; }
+
+/* define el formato de las letras del nav */
+.letrasNav {
+  /* background-color: black;   */
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  font-size: 20px;
+  list-style: none; }
+
+.letrasNav li a {
+  text-decoration: none;
+  color: whitesmoke; }
+
+h1 {
+  /* background-image: url('../img/wallpaper2.jpg'); */
+  width: 100%;
+  text-align: center;
+  font-family: 'Biryani';
+  color: whitesmoke; }
+
+.tituloH1 {
+  width: 100%;
+  height: 80px;
+  padding-top: 20px; }
+
+#subtitulo {
+  /* background-image: url('../img/wallpaper2.jpg'); */
+  text-align: center;
+  height: 50px;
+  padding-top: 15px;
+  color: whitesmoke; }
+
+/* Este cuadro sera reemplazado por un calendario */
+.colorFondo {
+  background-color: #00cec9;
+  width: 800px;
+  height: 500px; }
+
+/* Esta clase acomoda todas las paginas debajo del nav */
+.topGenerico {
+  position: relative;
+  top: 60px;
+  background-image: url("../img/quirofano.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; }
+
+/* Clase para ajustar espacios en izq y der */
+.bordes {
+  width: 80%;
+  margin: 0 auto; }
+
+/* formato de la caja del footter */
+.piePagina {
+  background: #47b5f4;
+  background: linear-gradient(90deg, #47b5f4 0%, #f5722c 35%, #00b894 100%);
+  padding: 10px;
+  position: relative;
+  height: auto; }
+
+.cajaPiePagina {
+  display: grid;
+  width: 80%;
+  margin: 0 auto;
+  grid-template-columns: 8fr 1fr 1fr 1fr 1fr; }
+
+/* texto en footer */
+#txtFooter {
+  margin-top: 15px;
+  /* position: absolute; */
+  /* top: 25px; */ }
+
+/* iconos dentro del footer */
+#imagenFooter1 {
+  width: 40px;
+  height: 40px;
+  /* position: absolute;
+    right: 440px;
+    top: 10px; */ }
+
+#imagenFooter2 {
+  width: 40px;
+  height: 40px;
+  /* position: absolute;
+    right: 340px;
+    top: 10px; */ }
+
+#imagenFooter3 {
+  width: 40px;
+  height: 40px;
+  /* position: absolute;
+    right: 240px;
+    top: 10px; */ }
+
+#imagenFooter4 {
+  width: 40px;
+  height: 40px;
+  /* position: absolute;
+    right: 140px;
+    top: 10px; */ }
+
+/* para usar en forma generica de los divs */
+.cajaGenerica {
+  padding: 20px;
+  /* margin-bottom: 20px; */ }
+
+/* Para los campos inputs de contacto */
+.entradas {
+  box-sizing: border-box;
+  width: 150px; }
+
+.etiquetas {
+  margin-top: 50px; }
+
+/* Grafico con tabla de horarios */
+.horarios {
+  border: #000 solid 1px;
+  background-color: #55efc4;
+  border-collapse: collapse;
+  padding: 15px;
+  margin: 0 auto; }
+
+div h3 {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center; }
+
+div .ingreso {
+  width: 75%;
+  margin: 0 auto;
+  padding: 10px; }
+
+.articulo {
+  width: 75%;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 10px; }
+
+/* Cartel de aviso en pagina Horarios */
+.pandemia {
+  margin: 0 auto;
+  border-radius: 60%;
+  text-align: center;
+  margin-bottom: 20px; }
+
+/* Para definir un fondo y forma en parrafos, secciones, cajas */
+.cuadroTxt {
+  background: #47b5f4;
+  background: linear-gradient(90deg, #47b5f4 0%, #f5722c 35%, #00b894 100%);
+  padding: 20px; }
+
+label {
+  color: whitesmoke; }
+
+button {
+  background-color: #000;
+  color: whitesmoke; }
+
+.parrafo1 {
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: whitesmoke; }
+
+.parrafo3 {
+  padding: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+div.parrafo3 {
+  color: whitesmoke; }
+
+.textoGrande {
+  font-size: 2em; }
+
+/* formato de caja "como llegar" y "redes sociales" de pagina inicio */
+.tablaInicio {
+  /* background-color: seagreen; */
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: whitesmoke;
+  flex-wrap: wrap; }
+
+.parrafo2 {
+  /* background-color: yellowgreen; */
+  padding: 3px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 20px;
+  color: whitesmoke; }
+
+/* Formato de la caja Flex en pagina inicio */
+.cajaFlex {
+  width: 80%;
+  height: 300px;
+  display: flex;
+  /* background-color: cornflowerblue; */
+  justify-content: space-between; }
+
+.flex1 {
+  /* background-color: coral; */
+  width: 100%;
+  height: 100%;
+  border: solid 2px #000; }
+
+/* ****** seccion de noticias en menu incio */
+.novedades {
+  /* background-color: #3b7df7; */
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  width: 80%;
+  height: 300px;
+  margin: 0 auto;
+  /* justify-items: stretch; */
+  justify-content: space-between; }
+
+.noticias {
+  background-color: rosybrown; }
+
+.textoEnTop {
+  text-align: center;
+  vertical-align: top; }
+
+/* Ubicar dentro de la alineación o margin los items del list, y retirar los puntos de inicio */
+ul.listaFormulario {
+  list-style-type: none;
+  list-style-position: inside; }
+
+/* Estilo de letra para los mensajes institicionales */
+.textoInstitucional {
+  font-family: 'Bad Script', cursive;
+  font-size: 20px; }
+
+/* Estilo de letra para institicional carta del director */
+#cartaDirector {
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px; }
+
+/* cambiar span a display block */
+span.director {
+  display: block;
+  text-align: right;
+  margin-right: 50px; }
+
+.director {
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  font-weight: bold; }
+
+/* ******Aca rompemos todo lo hecho y tratamos de meter grid :) ;P ********/
+.cajaGrid {
+  display: grid;
+  grid-template-areas: "seccion1 seccion1 seccion1 div1 div1"
+ "div2 div2 seccion2 seccion2 seccion2"
+ "seccion3 seccion3 seccion3 div3 div3";
+  grid-template-columns: repeat(5, 2fr);
+  grid-template-rows: repeat(3, 4fr);
+  width: 80%;
+  margin: 0 auto; }
+
+.gridSection {
+  color: whitesmoke;
+  border-bottom: solid 1px #000;
+  font-size: 20px;
+  padding-left: 40px;
+  background: #47b5f4;
+  background: linear-gradient(90deg, #47b5f4 0%, #f5722c 35%, #00b894 100%);
+  opacity: 0.6; }
+
+.gridSection:hover {
+  opacity: 1; }
+
+.gridDiv {
+  color: whitesmoke;
+  border-bottom: solid 1px #000; }
+
+/*  ********* definiendo hijos del grid ubicado en pagina inicio ********* */
+section#seccion1 {
+  grid-area: seccion1; }
+
+div#div1 {
+  grid-area: div1; }
+
+div#div1 img {
+  width: 100%;
+  height: 100%; }
+
+section#seccion2 {
+  grid-area: seccion2; }
+
+div#div2 {
+  grid-area: div2; }
+
+section#seccion3 {
+  grid-area: seccion3; }
+
+div#div3 {
+  grid-area: div3; }
+
+div#div3 img {
+  width: 100%;
+  height: 100%; }
+
+/* Mas grids, pagina inicio acomodando los iconos de redes sociales junto al mapa */
+.iconos {
+  display: grid;
+  width: 400px;
+  height: 250px;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas: "whatsapp txtWhatsapp"
+ "instagram txtInstagram"
+ "twitter txtTwitter"
+ "facebook txtFacebook";
+  justify-items: center;
+  align-items: center; }
+
+.redesSociales {
+  width: 60px;
+  height: 60px; }
+
+.textoEnRedes {
+  /* width: 300px; */
+  /* padding-top: 20px; */
+  font-size: 20px; }
+
+img#wapp {
+  grid-area: whatsapp; }
+
+span#txtWapp {
+  grid-area: txtWhatsapp;
+  justify-self: start; }
+
+img#instgram {
+  grid-area: instagram; }
+
+span#txtInstgram {
+  grid-area: txtInstagram;
+  justify-self: start; }
+
+img#twtter {
+  grid-area: twitter; }
+
+span#txtTwtter {
+  grid-area: txtTwitter;
+  justify-self: start; }
+
+img#fcbok {
+  grid-area: facebook; }
+
+span#txtFcbok {
+  grid-area: txtFacebook;
+  justify-self: start; }
