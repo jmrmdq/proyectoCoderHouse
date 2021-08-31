@@ -5,8 +5,7 @@
   box-sizing: border-box; }
 
 .navegadorMenu {
-    justify-content: right;
-}
+  justify-content: right; }
 
 /* Defino la caja dentro del nav */
 .cajaNav {
@@ -29,6 +28,9 @@
   align-items: center; }
 
 /* define el formato de las letras del nav */
+/* .justify-content-end {
+    justify-content: flex-end !important;
+  } */
 .letrasNav {
   /* background-color: black;   */
   display: flex;
@@ -285,9 +287,7 @@ span.director {
 /* ******Aca rompemos todo lo hecho y tratamos de meter grid :) ;P ********/
 .cajaGrid {
   display: grid;
-  grid-template-areas: "seccion1 seccion1 seccion1 div1 div1"
- "div2 div2 seccion2 seccion2 seccion2"
- "seccion3 seccion3 seccion3 div3 div3";
+  grid-template-areas: "seccion1 seccion1 seccion1 div1 div1" "div2 div2 seccion2 seccion2 seccion2" "seccion3 seccion3 seccion3 div3 div3";
   grid-template-columns: repeat(5, 2fr);
   grid-template-rows: repeat(3, 4fr);
   width: 80%;
@@ -343,10 +343,7 @@ div#div3 img {
   height: 250px;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: repeat(4, 1fr);
-  grid-template-areas: "whatsapp txtWhatsapp"
- "instagram txtInstagram"
- "twitter txtTwitter"
- "facebook txtFacebook";
+  grid-template-areas: "whatsapp txtWhatsapp" "instagram txtInstagram" "twitter txtTwitter" "facebook txtFacebook";
   justify-items: center;
   align-items: center; }
 
