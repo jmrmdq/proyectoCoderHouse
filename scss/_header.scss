@@ -2,6 +2,8 @@
 .fijarMenu{
   width: 100%;
   position: $menuFijo;
+  backdrop-filter: blur (10px);
+  box-shadow: 0 0 50px rgb(245, 5, 5);
   &.navegadorMenu {
     justify-content: right;
   }  
@@ -17,4 +19,3 @@
     font-family: 'Biryani';
     text-align:center;  
   }
-

@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -6,7 +5,9 @@
 
 .fijarMenu {
   width: 100%;
-  position: fixed; }
+  position: fixed;
+  backdrop-filter: blur 10px;
+  box-shadow: 0 0 50px #f50505; }
   .fijarMenu.navegadorMenu {
     justify-content: right; }
 
@@ -21,9 +22,10 @@
   font-family: 'Biryani';
   text-align: center; }
 
-.piePagina {
-  background: #47b5f4;
-  background: linear-gradient(90deg, #47b5f4 0%, #f5722c 35%, #00b894 100%);
+.cajaX3 {
+  display: flex;
+  justify-content: space-around; }
+ound: linear-gradient(90deg, #47b5f4 0%, #f5722c 35%, #00b894 100%);
   padding: 10px;
   position: relative;
   height: auto; }
@@ -321,11 +323,8 @@ img#fcbok {
 span#txtFcbok {
   grid-area: txtFacebook;
   justify-self: start; }
-fy-self: start; }
-ection#seccion1 {
-  grid-area: seccion1; }
-
-div#div1 {
+ }
+#div1 {
   grid-area: div1; }
 
 div#div1 img {
