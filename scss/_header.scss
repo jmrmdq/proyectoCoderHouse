@@ -1,4 +1,20 @@
 
-.navegadorMenu {
-  justify-content: right;
+.fijarMenu{
+  width: 100%;
+  position: $menuFijo;
+  &.navegadorMenu {
+    justify-content: right;
+  }  
 }
+.tituloPpal{
+  width: 100%;
+  padding: 1em;
+  background-color: #00b894;
+  padding-top: 5em;
+}
+.tituloAlineado{
+    width: 100%;
+    font-family: 'Biryani';
+    text-align:center;  
+  }
+

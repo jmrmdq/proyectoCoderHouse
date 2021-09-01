@@ -4,85 +4,23 @@
   margin: 0;
   box-sizing: border-box; }
 
-.navegadorMenu {
-  justify-content: right; }
-
-/* Defino la caja dentro del nav */
-.cajaNav {
-  background: #47b5f4;
-  background: linear-gradient(90deg, #47b5f4 0%, #f5722c 35%, #00b894 100%);
-  position: fixed;
-  top: 0%;
+.fijarMenu {
   width: 100%;
-  height: 60px;
-  z-index: 3000; }
+  position: fixed; }
+  .fijarMenu.navegadorMenu {
+    justify-content: right; }
 
-/* define el menu nav, no el contenido */
-.barraNavegador {
-  display: flex;
-  width: 80%;
-  height: 100%;
-  margin: 0 auto;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center; }
-
-/* define el formato de las letras del nav */
-/* .justify-content-end {
-    justify-content: flex-end !important;
-  } */
-.letrasNav {
-  /* background-color: black;   */
-  display: flex;
-  width: 60%;
-  justify-content: space-between;
-  font-size: 20px;
-  list-style: none; }
-
-.letrasNav li a {
-  text-decoration: none;
-  color: whitesmoke; }
-
-h1 {
-  /* background-image: url('../img/wallpaper2.jpg'); */
+.tituloPpal {
   width: 100%;
-  text-align: center;
+  padding: 1em;
+  background-color: #00b894;
+  padding-top: 5em; }
+
+.tituloAlineado {
+  width: 100%;
   font-family: 'Biryani';
-  color: whitesmoke; }
+  text-align: center; }
 
-.tituloH1 {
-  width: 100%;
-  height: 80px;
-  padding-top: 20px; }
-
-#subtitulo {
-  /* background-image: url('../img/wallpaper2.jpg'); */
-  text-align: center;
-  height: 50px;
-  padding-top: 15px;
-  color: whitesmoke; }
-
-/* Este cuadro sera reemplazado por un calendario */
-.colorFondo {
-  background-color: #00cec9;
-  width: 800px;
-  height: 500px; }
-
-/* Esta clase acomoda todas las paginas debajo del nav */
-.topGenerico {
-  position: relative;
-  top: 60px;
-  background-image: url("../img/quirofano.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center; }
-
-/* Clase para ajustar espacios en izq y der */
-.bordes {
-  width: 80%;
-  margin: 0 auto; }
-
-/* formato de la caja del footter */
 .piePagina {
   background: #47b5f4;
   background: linear-gradient(90deg, #47b5f4 0%, #f5722c 35%, #00b894 100%);
@@ -344,6 +282,83 @@ div#div3 img {
   grid-template-columns: 1fr 2fr;
   grid-template-rows: repeat(4, 1fr);
   grid-template-areas: "whatsapp txtWhatsapp" "instagram txtInstagram" "twitter txtTwitter" "facebook txtFacebook";
+  justify-items: center;
+  align-items: center; }
+
+.redesSociales {
+  width: 60px;
+  height: 60px; }
+
+.textoEnRedes {
+  /* width: 300px; */
+  /* padding-top: 20px; */
+  font-size: 20px; }
+
+img#wapp {
+  grid-area: whatsapp; }
+
+span#txtWapp {
+  grid-area: txtWhatsapp;
+  justify-self: start; }
+
+img#instgram {
+  grid-area: instagram; }
+
+span#txtInstgram {
+  grid-area: txtInstagram;
+  justify-self: start; }
+
+img#twtter {
+  grid-area: twitter; }
+
+span#txtTwtter {
+  grid-area: txtTwitter;
+  justify-self: start; }
+
+img#fcbok {
+  grid-area: facebook; }
+
+span#txtFcbok {
+  grid-area: txtFacebook;
+  justify-self: start; }
+fy-self: start; }
+ection#seccion1 {
+  grid-area: seccion1; }
+
+div#div1 {
+  grid-area: div1; }
+
+div#div1 img {
+  width: 100%;
+  height: 100%; }
+
+section#seccion2 {
+  grid-area: seccion2; }
+
+div#div2 {
+  grid-area: div2; }
+
+section#seccion3 {
+  grid-area: seccion3; }
+
+div#div3 {
+  grid-area: div3; }
+
+div#div3 img {
+  width: 100%;
+  height: 100%; }
+
+/* Mas grids, pagina inicio acomodando los iconos de redes sociales junto al mapa */
+.iconos {
+  display: grid;
+  width: 400px;
+  height: 250px;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas: "whatsapp txtWhatsapp"
+ "instagram txtInstagram"
+ "twitter txtTwitter"
+ "facebook txtFacebook";
   justify-items: center;
   align-items: center; }
 
