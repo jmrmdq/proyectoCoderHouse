@@ -2,4 +2,16 @@
 .cajaX3{
     display: flex;
     justify-content: $cajaTriple;
+    padding-top: 2em;
+}
+p img{
+    width: $imgSmall;
+    height: $imgSmall;
+}
+.cajaBtn{
+    justify-content: $centrar;
+}
+.card-img-top{
+    height: 18rem;
+    object-fit: cover;
 }
