@@ -7,14 +7,17 @@
   width: 100%;
   position: fixed;
   backdrop-filter: blur 10px;
-  box-shadow: 0 0 50px #f50505; }
+  box-shadow: 0 0 50px #FFC300;
+  z-index: 1000; }
+  .fijarMenu.navegadorBox {
+    padding-left: 2em; }
   .fijarMenu.navegadorMenu {
     justify-content: right; }
 
 .tituloPpal {
   width: 100%;
   padding: 1em;
-  background-color: #00b894;
+  background-color: #58D68D;
   padding-top: 5em; }
 
 .tituloAlineado {
@@ -25,7 +28,9 @@
 .cajaX3 {
   display: flex;
   justify-content: space-around;
-  padding-top: 2em; }
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: #D1F2EB; }
 
 p img {
   width: 30px;
@@ -37,3 +42,14 @@ p img {
 .card-img-top {
   height: 18rem;
   object-fit: cover; }
+
+.bordes {
+  border: 3px solid #5DADE2; }
+
+@media (max-width: 576px) {
+  .cajaX3 {
+    display: flex;
+    flex-flow: column;
+    padding-left: 2.5em; }
+  .cajaX3 > .card {
+    width: 100%; } }

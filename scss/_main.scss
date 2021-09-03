@@ -3,6 +3,8 @@
     display: flex;
     justify-content: $cajaTriple;
     padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: $colorFondo;
 }
 p img{
     width: $imgSmall;
@@ -14,4 +16,7 @@ p img{
 .card-img-top{
     height: 18rem;
     object-fit: cover;
+}
+.bordes{
+    border:3px solid $colorCeleste ;
 }
