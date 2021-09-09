@@ -3,6 +3,10 @@
   margin: 0;
   box-sizing: border-box; }
 
+.dedoClick {
+  width: 30px;
+  height: 30px; }
+
 .fijarMenu {
   width: 100%;
   position: fixed;
@@ -17,7 +21,7 @@
 .tituloPpal {
   width: 100%;
   padding: 1em;
-  background-color: #58D68D;
+  background-color: #D1F2EB;
   padding-top: 5em; }
 
 .tituloAlineado {
@@ -32,10 +36,6 @@
   padding-bottom: 2em;
   background-color: #D1F2EB; }
 
-p img {
-  width: 30px;
-  height: 30px; }
-
 .cajaBtn {
   justify-content: center; }
 
@@ -46,6 +46,49 @@ p img {
 .bordes {
   border: 3px solid #5DADE2; }
 
+.subtitulos {
+  text-align: center;
+  background-color: #D1F2EB;
+  height: 2em; }
+
+.cajaX2 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: #D1F2EB; }
+
+.seccion4 {
+  display: flex;
+  flex-direction: row; }
+  .seccion4 .mapa {
+    width: 60%;
+    height: 300px; }
+  .seccion4 .redSocial {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    .seccion4 .redSocial .imgRedSocial {
+      width: 40%;
+      text-align: right; }
+      .seccion4 .redSocial .imgRedSocial .iconos {
+        width: 70px;
+        height: 70px; }
+    .seccion4 .redSocial .txtRedSocial {
+      width: 60%;
+      text-align: center;
+      font-size: 1em; }
+      .seccion4 .redSocial .txtRedSocial a {
+        text-decoration: none;
+        color: #000; }
+
+boxFooter {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 3em; }
+  
 @media (max-width: 576px) {
   .cajaX3 {
     display: flex;
