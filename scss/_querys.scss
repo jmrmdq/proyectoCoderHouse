@@ -1,10 +1,11 @@
 @media (max-width: 576px) {
-    .cajaX3 {
-      display: flex;
-      flex-flow: column;
-      padding-left: 2.5em;
-    }
-    .cajaX3 > .card {
+  .cajaX3 {
+    display: flex;
+    flex-flow: column;
+    padding-left: 2.5em;
+
+    & .card {
       width: 100%;
-}
-}
+    }
+  }
+} 

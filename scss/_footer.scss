@@ -3,16 +3,18 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 3em; 
-}
-.imgFooter{
-    width: $imgFooter;
-    height: $imgFooter;
-}
-;
-}
-
-
+    height: 5em; 
+    
+    & .boxFooterTxt{
+        color: $colorBlanco;
     }
-}
 
+    & .boxFooterImg{
+        filter: invert(100%);
+    
+        & .imgFooter{
+            width: $imgFooter;
+            height: $imgFooter;
+        }
+    }
+}    
