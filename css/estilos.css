@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.dedoClick {
+  width: 30px;
+  height: 30px; }
+
+.fijarMenu {
+  width: 100%;
+  position: fixed;
+  backdrop-filter: blur 10px;
+  z-index: 1000; }
+  .fijarMenu.navegadorBox {
+    padding-left: 2em; }
+  .fijarMenu.navegadorMenu {
+    justify-content: right; }
+
+.tituloPpal {
+  width: 100%;
+  padding: 1em;
+  padding-top: 5em;
+  background-color: rgba(125, 129, 129, 0.363); }
+
+.tituloAlineado {
+  width: 100%;
+  font-family: 'Biryani';
+  text-align: center; }
+
+.cajaX3 {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin: 0 auto; }
+
+.cajaBtn {
+  justify-content: center; }
+
+.card-img-top {
+  height: 18rem;
+  object-fit: cover; }
+
+.bordes {
+  border: 3px solid #5DADE2; }
+
+.subtitulos {
+  text-align: center;
+  height: 3em;
+  justify-content: center; }
+
+.cajaX2 {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin: 0 auto; }
+
+.seccion4 {
+  display: flex;
+  flex-direction: row; }
+  .seccion4 .mapa {
+    width: 60%;
+    height: 300px; }
+  .seccion4 .redSocial {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    .seccion4 .redSocial .imgRedSocial {
+      width: 40%;
+      text-align: right; }
+      .seccion4 .redSocial .imgRedSocial .iconos {
+        width: 70px;
+        height: 70px; }
+    .seccion4 .redSocial .txtRedSocial {
+      width: 60%;
+      text-align: center;
+      font-size: 1em; }
+      .seccion4 .redSocial .txtRedSocial a {
+        text-decoration: none;
+        color: #000; }
+
+.boxFooter {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 5em; }
+  .boxFooter .boxFooterTxt {
+    color: whitesmoke; }
+  .boxFooter .boxFooterImg {
+    filter: invert(100%); }
+    .boxFooter .boxFooterImg .imgFooter {
+      width: 40px;
+      height: 40px; }
+
+@media (max-width: 576px) {
+  .cajaX3 {
+    display: flex;
+    flex-flow: column;
+    padding-left: 2.5em; }
+    .cajaX3 .card {
+      width: 100%; } }
+ >  .card {
+    width: 100%; } }

@@ -3,7 +3,6 @@
   width: 100%;
   position: $menuFijo;
   backdrop-filter: blur (10px);
-  // box-shadow: 0 0 50px $colorAmarillo;
   z-index: 1000;
   &.navegadorBox{
     padding-left: 2em;
@@ -16,9 +15,16 @@
   width: 100%;
   padding: 1em;
   padding-top: 5em;
+  background-color: rgba(125, 129, 129, 0.363);
 }
 .tituloAlineado{
   width: 100%;
   font-family: 'Biryani';
   text-align:center;  
+}Alineado{
+  width: 100%;
+  font-family: 'Biryani';
+  text-align:center;  
+};  
+} 
 }
