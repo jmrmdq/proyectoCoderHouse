@@ -18,15 +18,22 @@
     justify-content: right; }
 
 .tituloPpal {
+  position: relative;
   width: 100%;
-  padding: 1em;
   padding-top: 5em;
-  background-color: rgba(125, 129, 129, 0.363); }
+  background-color: rgba(189, 239, 248, 0.4);
+  height: 12em;
+  padding-bottom: 2em; }
 
 .tituloAlineado {
   width: 100%;
   font-family: 'Biryani';
   text-align: center; }
+
+.wave {
+  width: 100%;
+  position: absolute;
+  bottom: 0; }
 
 .cajaX3 {
   width: 80%;
@@ -72,14 +79,15 @@
     flex-wrap: wrap; }
     .seccion4 .redSocial .imgRedSocial {
       width: 40%;
-      text-align: right; }
+      text-align: center; }
       .seccion4 .redSocial .imgRedSocial .iconos {
         width: 70px;
         height: 70px; }
     .seccion4 .redSocial .txtRedSocial {
       width: 60%;
-      text-align: center;
-      font-size: 1em; }
+      text-align: left;
+      font-size: 1em;
+      padding-top: 1.5rem; }
       .seccion4 .redSocial .txtRedSocial a {
         text-decoration: none;
         color: #000; }
@@ -104,5 +112,3 @@
     padding-left: 2.5em; }
     .cajaX3 .card {
       width: 100%; } }
- >  .card {
-    width: 100%; } }

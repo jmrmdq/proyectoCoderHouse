@@ -47,7 +47,7 @@
 
         & .imgRedSocial{
             width: 40%;
-            text-align: right;
+            text-align: center;
 
             & .iconos{
                 width: $topGenerico;
@@ -57,8 +57,9 @@
 
         & .txtRedSocial{
             width: 60%;
-            text-align: center;
+            text-align: left;
             font-size: 1em;
+            padding-top: 1.5rem;
 
             & a{
                 text-decoration: none;
