@@ -92,6 +92,10 @@
         text-decoration: none;
         color: #000; }
 
+.listaDoc {
+  display: flex;
+  flex-direction: row; }
+
 .boxFooter {
   display: flex;
   justify-content: space-evenly;

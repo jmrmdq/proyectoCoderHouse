@@ -72,44 +72,57 @@
     </header>
     <main>
         <section>
-            <div>
+            <div class="listaDoc">
                 <div class="list-group">
-                    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
-                        The current link item
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-action">A second link item</a>
-                    <a href="#" class="list-group-item list-group-item-action">A third link item</a>
-                    <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
-                    <a class="list-group-item list-group-item-action disabled">A disabled link item</a>
+                    <a href="#" class="list-group-item list-group-item-action" aria-current="true">Clínica Médica</a>
+                    <a href="#" class="list-group-item list-group-item-action">Cardiología</a>
+                    <a href="#" class="list-group-item list-group-item-action">Cirugía</a>
+                    <a href="#" class="list-group-item list-group-item-action">Ginecología</a>
+                    <a href="#" class="list-group-item list-group-item-action">Kinesiología</a>
+                    <a href="#" class="list-group-item list-group-item-action">Odontología</a>
+                    <a href="#" class="list-group-item list-group-item-action">Pediatría</a>
+                    <a href="#" class="list-group-item list-group-item-action">Psicología</a>
                 </div>
-
-                <div class="list-group">
-                    <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
-                        The current button
-                    </button>
-                    <button type="button" class="list-group-item list-group-item-action">A second item</button>
-                    <button type="button" class="list-group-item list-group-item-action">A third button item</button>
-                    <button type="button" class="list-group-item list-group-item-action">A fourth button item</button>
-                    <button type="button" class="list-group-item list-group-item-action" disabled>A disabled button
-                        item</button>
-                </div>
-
-                <button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
-
-                <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
-                    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-                        <div class="toast-header">
-                            <img src="..." class="rounded me-2" alt="...">
-                            <strong class="me-auto">Bootstrap</strong>
-                            <small>11 mins ago</small>
-                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-                        </div>
-                        <div class="toast-body">
-                            Hello, world! This is a toast message.
-                        </div>
-                    </div>
+                <div class="imgRedSocial">
+                    <img src="img/doctor.png" alt="">
                 </div>
             </div>
+
+            <div>
+                <div>
+                    <table class="table table-dark table-striped">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Apellido</th>
+                            <th scope="col">Contacto</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Marty</td>
+                            <td>McFly</td>
+                            <td>MartyMcFly@jmr.com.ar</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Emmett</td>
+                            <td>Brown</td>
+                            <td>EmmettBrown@jmr.com.ar</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Jennifer</td>
+                            <td>Parker</td>
+                            <td>JennParker@jmr.com.ar</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+
         </section>
 
         <section>
@@ -141,5 +154,4 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <script src="../bootstrap-5.1.0-dist/js/bootstrap.js"></script>
 </body>
-
 </html>
