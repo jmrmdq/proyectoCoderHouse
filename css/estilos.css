@@ -92,10 +92,6 @@
         text-decoration: none;
         color: #000; }
 
-.listaDoc {
-  display: flex;
-  flex-direction: row; }
-
 .boxFooter {
   display: flex;
   justify-content: space-evenly;
@@ -116,3 +112,30 @@
     padding-left: 2.5em; }
     .cajaX3 .card {
       width: 100%; } }
+
+.listaDoc {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3em; }
+  .listaDoc .list-group {
+    width: 60%; }
+  .listaDoc .imgRedSocial {
+    width: 40%;
+    text-align: center;
+    justify-content: center; }
+    .listaDoc .imgRedSocial img {
+      height: 20em; }
+
+.subtitulos2 {
+  width: 80%;
+  text-align: left;
+  height: 3em;
+  justify-content: center;
+  margin: 0 auto;
+  padding-left: 1em; }
+
+.tablaDr {
+  width: 80%;
+  margin: 0 auto; }
