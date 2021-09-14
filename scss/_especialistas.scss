@@ -32,3 +32,18 @@
     width: 80%;
     margin: 0 auto;
 }
+.cajaCarrusel{
+    width: 80%;
+    margin: 0 auto;
+    
+    & .carruselIndividual{
+        width: 100%;
+        height: 80%;
+
+        & .imgCarrusel{
+            width: 100%;
+            height: 100%;
+            filter: grayscale(100%);
+        }
+    }
+}
