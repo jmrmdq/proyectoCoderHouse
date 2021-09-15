@@ -11,6 +11,7 @@
     justify-content: $centrar;
 }
 .card-img-top{
+    width: 18rem;
     height: 18rem;
     object-fit: cover;
 }
@@ -33,6 +34,10 @@
 .seccion4{
     display: flex;
     flex-direction: row;
+    width: 80%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin: 0 auto;
 
     & .mapa{
         width: 60%;

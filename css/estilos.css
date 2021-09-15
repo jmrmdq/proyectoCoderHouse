@@ -47,6 +47,7 @@
   justify-content: center; }
 
 .card-img-top {
+  width: 18rem;
   height: 18rem;
   object-fit: cover; }
 
@@ -68,7 +69,11 @@
 
 .seccion4 {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  width: 80%;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin: 0 auto; }
   .seccion4 .mapa {
     width: 60%;
     height: 300px; }
@@ -106,12 +111,46 @@
       height: 40px; }
 
 @media (max-width: 576px) {
+  .tituloPpal {
+    padding-top: 4em;
+    height: 4em; }
+    .tituloPpal .wave {
+      display: none; }
+      .tituloPpal .wave svg {
+        display: none; }
   .cajaX3 {
     display: flex;
     flex-flow: column;
-    padding-left: 2.5em; }
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 0px; }
     .cajaX3 .card {
-      width: 100%; } }
+      width: 100%; }
+  .card-img-top {
+    width: 100%; }
+  .cajaX2 {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 0px; }
+  .seccion4 {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    margin: 0 auto; }
+    .seccion4 .mapa {
+      width: 100%; }
+    .seccion4 .redSocial {
+      width: 100%;
+      display: flex;
+      flex-flow: row;
+      align-items: center;
+      padding-top: 1.5em;
+      padding-bottom: 1.5em; }
+      .seccion4 .redSocial .txtRedSocial {
+        display: none; } }
 
 .listaDoc {
   width: 80%;

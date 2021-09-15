@@ -1,11 +1,64 @@
 @media (max-width: 576px) {
+  .tituloPpal{
+    padding-top: 4em;
+    height: 4em;
+
+    & .wave{
+      display: none;
+
+      & svg{
+        display: none;
+      }
+    }
+  }
+
   .cajaX3 {
     display: flex;
     flex-flow: column;
-    padding-left: 2.5em;
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 0px;
 
     & .card {
       width: 100%;
     }
   }
-} 
+
+  .card-img-top{
+    width: 100%;
+  } 
+
+  .cajaX2 {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 0px;
+  }
+  
+  .seccion4 {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    margin: 0 auto;
+  
+    & .mapa{
+      width: 100%;
+    }
+
+    & .redSocial{
+      width: 100%;
+      display: flex;
+      flex-flow: row;
+      align-items: center;
+      padding-top: 1.5em;
+      padding-bottom: 1.5em;
+    
+    
+      & .txtRedSocial{
+        display: none;
+      }
+    }
+  }  
+}
