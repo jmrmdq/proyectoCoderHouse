@@ -12,6 +12,12 @@
     }
   }
 
+  .subtitulos2{
+    width: 100%;
+    text-align: center;
+    padding-top: 0.5em;
+  }
+
   .cajaX3 {
     display: flex;
     flex-flow: column;
@@ -60,5 +66,14 @@
         display: none;
       }
     }
-  }  
+  }
+  
+  .listaDoc{
+    width: 100%;
+    text-align: center;
+
+    & .imgRedSocial{
+      display: none;
+    }
+  }
 }
