@@ -1,24 +1,24 @@
-@media (max-width: 576px) {
-  .tituloPpal{
+@media (max-width: 768px) {
+  .tituloPpal {
     padding-top: 4em;
     height: 4em;
 
-    & .wave{
+    & .wave {
       display: none;
 
-      & svg{
+      & svg {
         display: none;
       }
     }
   }
 
-  .subtitulos2{
+  .subtitulos2 {
     width: 100%;
     text-align: center;
     padding-top: 0.5em;
   }
 
-  h2{
+  h2 {
     font-size: calc(1.1rem + 0.7vw);
   }
 
@@ -35,9 +35,9 @@
     }
   }
 
-  .card-img-top{
+  .card-img-top {
     width: 100%;
-  } 
+  }
 
   .cajaX2 {
     display: flex;
@@ -46,41 +46,41 @@
     margin: 0 auto;
     padding-top: 0px;
   }
-  
+
   .seccion4 {
     display: flex;
     flex-flow: column;
     width: 100%;
     margin: 0 auto;
-  
-    & .mapa{
+
+    & .mapa {
       width: 100%;
     }
 
-    & .redSocial{
+    & .redSocial {
       width: 100%;
       display: flex;
       flex-flow: row;
       align-items: center;
       padding-top: 1.5em;
       padding-bottom: 1.5em;
-    
-    
-      & .txtRedSocial{
+
+
+      & .txtRedSocial {
         display: none;
       }
     }
   }
-  
-  .listaDoc{
+
+  .listaDoc {
     width: 100%;
     text-align: center;
 
-    & .imgRedSocial{
+    & .imgRedSocial {
       display: none;
     }
 
-    & .list-group{
+    & .list-group {
       width: 100%;
     }
   }

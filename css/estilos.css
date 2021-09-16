@@ -149,7 +149,7 @@
       width: 40px;
       height: 40px; }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .tituloPpal {
     padding-top: 4em;
     height: 4em; }
@@ -200,4 +200,13 @@
     width: 100%;
     text-align: center; }
     .listaDoc .imgRedSocial {
-      display: none; } }
+      display: none; }
+    .listaDoc .list-group {
+      width: 100%; } }
+ .redSocial .txtRedSocial {
+    display: none; }y: none; }
+        .listaDoc {
+          width: 100%;
+          text-align: center; }
+          .listaDoc .imgRedSocial {
+            display: none; } }
