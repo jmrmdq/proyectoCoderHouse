@@ -118,6 +118,12 @@
       display: none; }
       .tituloPpal .wave svg {
         display: none; }
+  .subtitulos2 {
+    width: 100%;
+    text-align: center;
+    padding-top: 0.5em; }
+  h2 {
+    font-size: calc(1.1rem + 0.7vw); }
   .cajaX3 {
     display: flex;
     flex-flow: column;
@@ -150,7 +156,12 @@
       padding-top: 1.5em;
       padding-bottom: 1.5em; }
       .seccion4 .redSocial .txtRedSocial {
-        display: none; } }
+        display: none; }
+  .listaDoc {
+    width: 100%;
+    text-align: center; }
+    .listaDoc .imgRedSocial {
+      display: none; } }
 
 .listaDoc {
   width: 80%;
@@ -190,3 +201,11 @@
       height: 100%;
       object-fit: cover;
       filter: grayscale(100%); }
+   padding-bottom: 1.5em; }
+            .seccion4 .redSocial .txtRedSocial {
+              display: none; }
+        .listaDoc {
+          width: 100%;
+          text-align: center; }
+          .listaDoc .imgRedSocial {
+            display: none; } }
