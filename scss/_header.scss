@@ -1,31 +1,35 @@
+.fijarMenu {
+    width: 100%;
+    position: $menuFijo;
+    backdrop-filter: blur (10px);
+    z-index: 1000;
 
-.fijarMenu{
-  width: 100%;
-  position: $menuFijo;
-  backdrop-filter: blur (10px);
-  z-index: 1000;
-  &__navegadorBox{
-    padding-left: 2em;
-  }
-  &__navegadorMenu {
-    justify-content: right;
-  }  
+    &__navegadorBox {
+        padding-left: 2em;
+    }
+
+    &__navegadorMenu {
+        justify-content: right;
+    }
 }
-.tituloPpal{
-  position: relative;
-  width: 100%;
-  padding-top: 5em;
-  background-color: rgba(189, 239, 248, 0.4);
-  height: 12em;
-  padding-bottom: 2em;
+
+.tituloPpal {
+    position: relative;
+    width: 100%;
+    padding-top: 5em;
+    background-color: rgba(189, 239, 248, 0.4);
+    height: 12em;
+    padding-bottom: 2em;
 }
-.tituloAlineado{
-  width: 100%;
-  font-family: 'Biryani';
-  text-align:center;  
+
+.tituloAlineado {
+    width: 100%;
+    font-family: 'Biryani';
+    text-align: center;
 }
-.wave{
-  width: 100%;
-  position: absolute;
-  bottom: 0;
+
+.wave {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
 }
