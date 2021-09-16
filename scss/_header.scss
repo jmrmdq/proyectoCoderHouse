@@ -4,10 +4,10 @@
   position: $menuFijo;
   backdrop-filter: blur (10px);
   z-index: 1000;
-  &.navegadorBox{
+  &__navegadorBox{
     padding-left: 2em;
   }
-  &.navegadorMenu {
+  &__navegadorMenu {
     justify-content: right;
   }  
 }

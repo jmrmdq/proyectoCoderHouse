@@ -39,34 +39,34 @@
     padding-bottom: 2em;
     margin: 0 auto;
 
-    & .mapa{
+    &__mapa{
         width: 60%;
         height: 300px;
     }
 
-    & .redSocial{
+    &__redSocial{
         width: 40%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
 
-        & .imgRedSocial{
+        &__imgRedSocial{
             width: 40%;
             text-align: center;
 
-            & .iconos{
+            &__iconos{
                 width: $topGenerico;
                 height: $topGenerico;
             }
         }
 
-        & .txtRedSocial{
+        &__txtRedSocial{
             width: 60%;
             text-align: left;
             font-size: 1em;
             padding-top: 1.5rem;
 
-            & a{
+            &__a{
                 text-decoration: none;
                 color: $colorBasico;
             }

@@ -5,14 +5,14 @@
     align-items: center;
     height: 5em; 
     
-    & .boxFooterTxt{
+    &__boxFooterTxt{
         color: $colorBlanco;
     }
 
-    & .boxFooterImg{
+    &__boxFooterImg{
         filter: invert(100%);
     
-        & .imgFooter{
+        &__imgFooter{
             width: $imgFooter;
             height: $imgFooter;
         }
