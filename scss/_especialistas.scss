@@ -6,11 +6,11 @@
     flex-direction: row;
     margin-bottom: 3em;
 
-    &__list-group{
+    &__.list-group{
         width: 60%;
     }
 
-    &__imgRedSocial{
+    &__.imgRedSocial{
         width: 40%;
         text-align: center;
         justify-content: center;
@@ -36,11 +36,11 @@
     width: 80%;
     margin: 0 auto;
     
-    &__carruselIndividual{
+    &__.carruselIndividual{
         width: 100%;
         height: 600px;
 
-        &__imgCarrusel{
+        &__.imgCarrusel{
             width: 100%;
             height: 100%;
             object-fit: cover;
