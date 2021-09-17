@@ -3,7 +3,7 @@
         padding-top: 4em;
         height: 4em;
 
-        &__wave {
+        &__.wave {
             display: none;
 
             &__svg {
@@ -30,7 +30,7 @@
         margin: 0 auto;
         padding-top: 0px;
 
-        &__card {
+        &__.card {
             width: 100%;
         }
     }
@@ -53,11 +53,11 @@
         width: 100%;
         margin: 0 auto;
 
-        &__mapa {
+        &__.mapa {
             width: 100%;
         }
 
-        &__redSocial {
+        &__.redSocial {
             width: 100%;
             display: flex;
             flex-flow: row;
@@ -66,7 +66,7 @@
             padding-bottom: 1.5em;
 
 
-            &__txtRedSocial {
+            &__.txtRedSocial {
                 display: none;
             }
         }
@@ -76,11 +76,11 @@
         width: 100%;
         text-align: center;
 
-        &__imgRedSocial {
+        &__.imgRedSocial {
             display: none;
         }
 
-        &__list-group {
+        &__.list-group {
             width: 100%;
         }
     }
