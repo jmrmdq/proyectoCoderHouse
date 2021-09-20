@@ -4,11 +4,11 @@
     backdrop-filter: blur (10px);
     z-index: 1000;
 
-    &__.navegadorBox {
+    & .navegadorBox {
         padding-left: 2em;
     }
 
-    &__.navegadorMenu {
+    & .navegadorMenu {
         justify-content: right;
     }
 }

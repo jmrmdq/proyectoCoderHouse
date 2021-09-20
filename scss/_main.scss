@@ -3,7 +3,6 @@
     width: 80%;
     display: flex;
     justify-content: space-between;
-    padding-top: 2em;
     padding-bottom: 2em;
     margin: 0 auto;
 }
@@ -27,7 +26,6 @@
     display: flex;
     width: 80%;
     justify-content: space-between;
-    padding-top: 2em;
     padding-bottom: 2em;
     margin: 0 auto;
 }
@@ -35,38 +33,37 @@
     display: flex;
     flex-direction: row;
     width: 80%;
-    padding-top: 2em;
     padding-bottom: 2em;
     margin: 0 auto;
 
-    &__.mapa{
+    & .mapa{
         width: 60%;
         height: 300px;
     }
 
-    &__.redSocial{
+    & .redSocial{
         width: 40%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
 
-        &__.imgRedSocial{
+        & .imgRedSocial{
             width: 40%;
             text-align: center;
 
-            &__.iconos{
+            & .iconos{
                 width: $topGenerico;
                 height: $topGenerico;
             }
         }
 
-        &__.txtRedSocial{
+        & .txtRedSocial{
             width: 60%;
             text-align: left;
             font-size: 1em;
             padding-top: 1.5rem;
 
-            &__a{
+            & a{
                 text-decoration: none;
                 color: $colorBasico;
             }
