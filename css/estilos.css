@@ -150,7 +150,6 @@
   height: 3em;
   justify-content: center;
   margin: 0 auto;
-  padding-left: 1em;
 }
 
 .tablaDr {
@@ -263,6 +262,9 @@
     display: none;
   }
   .listaDoc .list-group {
+    width: 100%;
+  }
+  .tablaDr {
     width: 100%;
   }
 }
