@@ -7,3 +7,14 @@
     width: $imgSmall;
     height: $imgSmall;
 }
+.wappFijo{
+    position: fixed;
+    right: 50px;
+    bottom: 100px;
+    z-index: 100;
+    
+    & img{
+        width: $topGenerico;
+        height: $topGenerico;
+    }
+}
