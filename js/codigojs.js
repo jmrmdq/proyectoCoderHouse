@@ -24,7 +24,7 @@ function procesarFormulario(e) {
     e.preventDefault();
     let obtenerFormulario = e.target;
 
-// Valido si los campos contienen texto y numero segu corresponda c/u y genero la constante para mi array
+    // Valido si los campos contienen texto y numero segu corresponda c/u y genero la constante para mi array
     datoValido(obtenerFormulario.children[1].value);
     const nombre = datoOk;
     datoValido(obtenerFormulario.children[3].value);
@@ -49,10 +49,7 @@ function procesarFormulario(e) {
         URegistradoEnJSON(usuarioReg.documento, JSON.stringify(UsuariosRegistrados));
     }
 }
-// 
-//EnJSON = (clave, valor)=> {localStorage.setItem(clave, valor)};
-
-//     for (const usuarioReg of UsuariosRegistrados){
-//         URegistradoEnJSON(usuarioReg.documento, JSON.stringify(UsuariosRegistrados));
-//     }
+//for (const medico of Medicos){
+//     MedicosEnJSON(Medicos.id, JSON.stringify(medico));
 // }
+//
