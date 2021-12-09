@@ -13,45 +13,58 @@ class Usuarios{
 // generar un array vacio donde luego se ingresaran los datos de usuario
 const UsuariosRegistrados = [];
 
-// primer paso para obtener inputs
+//obtener inputs de RegistrarUsuario.html 
 let formulario = document.getElementById("formularioContacto");
 
-// escucho el submit, boton enviar del formulario
+// obtener inputs de logueo en especialidades.html
+let usuarioRegistrado = document.getElementById("formularioUsuarioRegistrado");
+
+//escucho el submit, boton enviar del formulario en RegistrarUsuario.html 
 formulario.addEventListener("submit", procesarFormulario);
 
-// comienzo a leer info del formulario recibido, y lo pusheo en mi array de usuarios
+// escucho el boton ingresar de especialidades.html
+formulario.addEventListener("submit", procesarEntrada);
+
+//leer info del formulario recibido, y lo pusheo en mi array de usuarios, pagina RegistrarUsuario.html
 function procesarFormulario(e) {
     e.preventDefault();
     let obtenerFormulario = e.target;
 
-    // Valido si los campos contienen texto y numero segu corresponda c/u y genero la constante para mi array
+    // Validar si los campos contienen texto y numero segun corresponda c/u y genero la constante para mi array
     datoValido(obtenerFormulario.children[1].value);
-    const nombre = datoOk;
+    const nombre1 = datoOk;
     datoValido(obtenerFormulario.children[3].value);
-    const apellido = datoOk;
+    const apellido1 = datoOk;
     datoValido(obtenerFormulario.children[5].value);
-    const osocial = datoOk;
+    const osocial1 = datoOk;
     numeroValido(obtenerFormulario.children[7].value);
-    const edad = numeroOk;
+    const edad1 = numeroOk;
     numeroValido(obtenerFormulario.children[9].value);
-    const celu = numeroOk;
+    const celu1 = numeroOk;
     numeroValido(obtenerFormulario.children[11].value);
-    const documento = numeroOk;
+    const documento1 = numeroOk;
     
     // comienzo a volcar esta info a mi array de usuarios
-    UsuariosRegistrados.push(new Usuarios (nombre, apellido, osocial, edad, celu, documento));
+    UsuariosRegistrados.push(new Usuarios (nombre1, apellido1, osocial1, edad1, celu1, documento1));
     console.log(UsuariosRegistrados);
 
     // Guardo el usuario en el local Storage, previo, lo paso a JSON
     const URegistradoEnJSON = (clave, valor)=> {localStorage.setItem(clave, valor)};
 
-    for (const usuarioReg of UsuariosRegistrados){
-        URegistradoEnJSON(usuarioReg.documento, JSON.stringify(UsuariosRegistrados));
-    }
+    URegistradoEnJSON("UsuariosRegistrados", JSON.stringify(UsuariosRegistrados));
+    
 }
 
 
-//for (const medico of Medicos){
+// function procesarEntrada(e) {
+//     e.preventDefault();
+//     let obtenerFormulario = e.target;
+
+//     const Documento = obtenerFormulario.children[1].value;
+//     const ApellidoReg = obtenerFormulario.children[3].value;
+// }
+
+////edicos){
 //     MedicosEnJSON(Medicos.id, JSON.stringify(medico));
 // }
-//
+//////
