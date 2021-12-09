@@ -49,6 +49,8 @@ function procesarFormulario(e) {
         URegistradoEnJSON(usuarioReg.documento, JSON.stringify(UsuariosRegistrados));
     }
 }
+
+
 //for (const medico of Medicos){
 //     MedicosEnJSON(Medicos.id, JSON.stringify(medico));
 // }
